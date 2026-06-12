@@ -6,6 +6,20 @@ TwinCAT PLC variables over **ADS** (Automation Device Specification).
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Framework](https://img.shields.io/badge/.NET%20Framework-4.8-512BD4)
 ![UI](https://img.shields.io/badge/UI-WPF-0078D4)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Built with Claude](https://img.shields.io/badge/built%20with-Claude-cc785c)
+
+## About
+
+This project exists to give PLC developers and commissioning engineers a
+**simple, free tool** for inspecting and manipulating TwinCAT variables —
+without opening the full TwinCAT XAE environment: connect, browse the symbol
+tree, read or write a value, and keep an eye on critical signals with the
+live watch list.
+
+It was developed together with **[Claude](https://claude.com/claude-code)**
+(Anthropic's AI coding assistant) and is **open to everyone** — free to use,
+modify and share under the MIT license.
 
 ## Features
 
@@ -67,6 +81,12 @@ The executable is produced at `AdsSymbolViewer\bin\Release\AdsSymbolViewer.exe`.
 | `AdsService.cs` | All ADS communication: connect/disconnect, symbol enumeration, typed raw read/write |
 | `MainWindow.xaml(.cs)` | WPF UI: connection bar, symbol tree, detail panel, watch list, log |
 
-## Author
+## Authors
 
-**Ramazan ÇAKIR** — [github.com/rmzncakir](https://github.com/rmzncakir)
+- **Ramazan ÇAKIR** — [github.com/rmzncakir](https://github.com/rmzncakir)
+- **Claude** (Anthropic) — AI pair programmer, [claude.com/claude-code](https://claude.com/claude-code)
+
+## License
+
+Released under the [MIT License](LICENSE) — free for everyone to use,
+modify and distribute.
